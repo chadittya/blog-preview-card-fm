@@ -4,7 +4,7 @@
     --cblack: hsl(0, 0%, 7%);
     --cgray: hsl(0, 0%, 50%);
     --maxWidth: 320px;
-    --fzp: 16px;
+    --fzp: 1rem;
     --ff: "Figtree", sans-serif;
     --fw800: 800;
     --fw500: 500;
@@ -18,14 +18,10 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-  
-  .wrapper {
-    display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
-    padding: 20px;
+    gap: 2rem;
+    padding: 1rem;
   }
   
   .card-container {
@@ -99,6 +95,10 @@
   footer {
     text-align: center;
     padding: 20px;
+    position: absolute; 
+    bottom: 0; 
+    margin: auto; 
+    z-index: 10;
   }
   
   .attribution a {
